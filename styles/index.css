@@ -42,14 +42,24 @@ header{
     color: #222222;
 }
 img{
-    position: absolute;
-    width: 15rem;
-    border-radius: 50%;
-    aspect-ratio: 1/1;
-    object-fit: cover;
-    top: -8rem;
-    
+    position:absolute;
+    Max-width:50%;
+    border-radius:900px;
+    max-height:50%;
+    top:-10rem;
 }
 section{
     text-align: center;
+}
+.BUTTON{
+    border:#efefef 4px solid;
+}
+.BUTAOLARANJA{
+    width:160px;
+    height:60px;
+    border-radius:30px;
+    border:#f06449 solid;
+    font-size:18px;
+    font-family: "Poppins", sans-serif;
+    color: #000000
 }
